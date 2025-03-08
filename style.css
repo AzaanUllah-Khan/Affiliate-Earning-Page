@@ -20,7 +20,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: url('./pfp.png') no-repeat center center/cover;
+    background: url('./Assets/pfp.png') no-repeat center center/cover;
 }
 .content {
     padding: 20px;
