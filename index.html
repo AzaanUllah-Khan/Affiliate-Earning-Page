@@ -10,25 +10,37 @@
     <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
 </head>
 <body>
+    
+<!-- navbar -->
+    
     <div class="navbar">
         <i class="fa-solid fa-bars toggle-btn" onclick="toggleSidebar()"></i>
         <div class="profile-pic"></div>
     </div>
+    
+<!-- body -->
     
     <div class="content">
         <div class="header">
             <h1>Affiliate Dashboard</h1>
             <p>Welcome <span>AzaanUllah Khan</span></p>
         </div>
+        
         <div class="cards">
             <div class="card"><span><i class="fa-solid fa-dollar-sign"></i></span>Total Sales: $126,500</div>
             <div class="card"><span><i class="fa-solid fa-percent"></i></span>Commission: $10,200</div>
         </div>
+        
         <div class="chart-container">
             <canvas id="earningsChart"></canvas>
         </div>
+        
+<!-- Table -->
+
         <div class="transactions">
+            
             <h3>Recent Transactions</h3>
+            
             <table>
                 <tr>
                     <th>Date</th>
@@ -42,11 +54,15 @@
                 <tr><td>March 4 <span class="hide">2025</span></td><td>#1004</td><td>$950.00</td><td><button class="comp">Completed</button></td></tr>
                 <tr><td>March 5 <span class="hide">2025</span></td><td>#1005</td><td>$300.00</td><td><button class="failed">Failed</button></td></tr>
             </table>
+            
         </div>
     </div>
+    
     <script
 src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
 </script>
+    
 <script src="script.js"></script>
+
 </body>
 </html>
