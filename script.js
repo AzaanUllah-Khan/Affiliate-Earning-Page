@@ -53,4 +53,5 @@ new Chart(ctx, {
             }
         }
     }
+
 });
