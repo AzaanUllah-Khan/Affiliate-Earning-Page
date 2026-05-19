@@ -1,6 +1,5 @@
 const ctx = document.getElementById('earningsChart').getContext('2d');
 
-// Create a gradient fill
 const gradient = ctx.createLinearGradient(0, 0, 0, 400);
 gradient.addColorStop(0, 'rgba(108, 93, 211, 0.6)'); // Lighter at the top
 gradient.addColorStop(0.5, 'rgba(108, 93, 211, 0.3)'); // Midpoint transition
