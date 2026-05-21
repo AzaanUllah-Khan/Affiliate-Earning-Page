@@ -2,7 +2,7 @@ const ctx = document.getElementById('earningsChart').getContext('2d');
 
 const gradient = ctx.createLinearGradient(0, 0, 0, 400);
 gradient.addColorStop(0, 'rgba(108, 93, 211, 0.6)'); 
-gradient.addColorStop(0.5, 'rgba(108, 93, 211, 0.3)'); // Midpoint transition
+gradient.addColorStop(0.5, 'rgba(108, 93, 211, 0.3)'); 
 gradient.addColorStop(1, 'rgba(255, 255, 255, 0)'); // Fully transparent at the bottom
 
 // Data limited to 5 months
