@@ -5,7 +5,6 @@ gradient.addColorStop(0, 'rgba(108, 93, 211, 0.6)');
 gradient.addColorStop(0.5, 'rgba(108, 93, 211, 0.3)'); 
 gradient.addColorStop(1, 'rgba(255, 255, 255, 0)'); 
 
-// Data limited to 5 months
 const earningsData = [500, 750, 510, 950, 360];
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
 
